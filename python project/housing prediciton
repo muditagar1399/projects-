@@ -1,0 +1,89 @@
+Python Housing Price Prediction Project (Brief Introduction)
+
+This project focuses on predicting house prices using Python and Linear Regression, a supervised machine learning algorithm. The objective is to analyze various housing features and estimate property prices based on historical data. The project includes data preprocessing, exploratory data analysis (EDA), visualization using charts and graphs, model training, and performance evaluation.
+
+Columns Used
+
+Typical housing dataset columns include:
+
+Column	Description
+Area	Total area of the house (sq. ft.)
+Bedrooms	Number of bedrooms
+Bathrooms	Number of bathrooms
+Stories	Number of floors
+Parking	Available parking spaces
+Main Road	Whether the house is connected to a main road
+Guest Room	Availability of a guest room
+Basement	Presence of a basement
+Hot Water Heating	Hot water heating facility
+Air Conditioning	Availability of AC
+Furnishing Status	Furnished, Semi-furnished, or Unfurnished
+Price	Target variable (House Price)
+Visualizations Used
+
+The project utilizes several charts to understand the data and identify relationships between features and house prices:
+
+Histogram – Distribution of house prices and area.
+Scatter Plot – Relationship between area and price.
+Bar Chart – Comparison of average prices across furnishing statuses.
+Correlation Heatmap – Shows correlation between numerical features.
+Box Plot – Detects outliers in price and area data.
+
+Example relationship between house area and price:
+
+House area vs price
+
+Example relationship showing how larger houses generally have higher prices.
+
+₹2M
+₹4M
+₹6M
+₹8M
+₹10M
+1000
+1500
+2000
+2500
+3000
+Linear Regression Model
+
+Linear Regression was used to learn the relationship between housing features and property prices. The model predicts the house price using:
+
+y=β
+0
+	​
+
++β
+1
+	​
+
+x
+1
+	​
+
++β
+2
+	​
+
+x
+2
+	​
+
++⋯+β
+n
+	​
+
+x
+n
+	​
+
+
+where:
+
+y = Predicted house price
+β₀ = Intercept
+β₁...βₙ = Feature coefficients
+x₁...xₙ = Housing features
+Outcome
+
+The trained model successfully predicts house prices based on the provided housing characteristics. The visualizations help identify trends, correlations, and influential factors affecting house prices, while Linear
